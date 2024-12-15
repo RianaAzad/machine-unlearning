@@ -1,0 +1,10 @@
+cff-version: 1.0.0
+message: "If you use this repository, please cite it as below."
+authors:
+- family-names: "Azad"
+  given-names: "Riana"
+  orcid: "https://orcid.org/0009-0007-6148-0107"
+title: "machine-unlearning"
+version: 1.0.0
+date-released: 2024-12-15
+url: "https://github.com/RianaAzad/machine-unlearning"
