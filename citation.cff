@@ -1,8 +1,8 @@
 cff-version: 1.0.0
 message: "If you use this repository, please cite it as below."
 authors:
-- family-names: "Azad"
-  given-names: "Riana"
+- family-names: "Riana"
+  given-names: "Azad"
   orcid: "https://orcid.org/0009-0007-6148-0107"
 title: "machine-unlearning"
 version: 1.0.0
