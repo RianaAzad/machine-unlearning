@@ -24,3 +24,12 @@ Machine unlearning addresses the challenge of selectively "forgetting" specific 
    - Removal Effectiveness: Ensuring complete removal of target data influence
    - Performance Preservation: Maintaining model accuracy on remaining data
    - Efficiency: Computational cost compared to full retraining
+
+### Implementation Approaches
+
+1. **SISA (Sharded, Isolated, Sliced, Aggregated) Training**
+   - Data is divided into shards during training
+   - Each shard trains an independent model
+   - Unlearning requires retraining only affected shards
+   - Advantages: Efficient, scalable
+   - Limitations: Potential performance impact from sharding
